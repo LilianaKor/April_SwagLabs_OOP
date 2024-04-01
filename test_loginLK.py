@@ -27,7 +27,7 @@ def test_loginLK(driver):
 
     cards = driver.find_elements(*CARDS)
     for i in cards:
-        print(i.text)
+        print(len(cards))
 
 
 
