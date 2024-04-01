@@ -14,9 +14,9 @@ def driver():
     chrome_options.add_argument("--window-size=1440,1080")   #max window
     service = Service(executable_path=ChromeDriverManager().install())
     driver = webdriver.Chrome(service=service)
-    driver.get("https://www.saucedemo.com/")
-    driver.find_element(*USER_NAME).send_keys("standard_user")
-    driver.find_element(*PASSWORD).send_keys("secret_sauce")
-    driver.find_element(*LOGIN).click()
+    # driver.get("https://www.saucedemo.com/")       # because moved to locators page (OOP)
+    # driver.find_element(*USER_NAME).send_keys("standard_user")
+    # driver.find_element(*PASSWORD).send_keys("secret_sauce")
+    # driver.find_element(*LOGIN).click()
     yield driver
     driver.quit()
