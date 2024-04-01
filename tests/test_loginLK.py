@@ -9,6 +9,7 @@
 class TestLogin():
 
     def test_loginLK(self, driver):
+        page = LoginPage(driver, base_url)
 
         # driver.get("https://www.saucedemo.com/")     ## go to fixture
         # driver.find_element(*USER_NAME).send_keys("standard_user")
