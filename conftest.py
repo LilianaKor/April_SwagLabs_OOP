@@ -7,7 +7,7 @@ from  selenium.webdriver.chrome.service import Service
 def driver():
     chrome_options = webdriver.ChromeOptions()
     chrome_options.add_argument("--incognito")
-    chrome_options.add_argument("--window-size=1440, 1080") #max window
+    chrome_options.add_argument("--window-size=1440,1080")   #max window
     service = Service(executable_path=ChromeDriverManager().install())
     driver = webdriver.Chrome(service=service)
     yield driver
