@@ -13,7 +13,7 @@ def test_loginLK(driver):
     driver.find_element(*LOGIN).click()
 
     actual_text = driver.find_element(*TITLE).text
-    expected_text = "Products"
+    expected_text = "Products!"
     assert actual_text == expected_text, f"Unexpected text, expected text: {expected_text}, actual text: {actual_text}"
     time.sleep(3)
 
