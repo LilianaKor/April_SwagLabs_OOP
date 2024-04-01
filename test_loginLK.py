@@ -24,10 +24,10 @@ def test_loginLK(driver):
     driver.find_element(*USER_NAME).send_keys("standard_user")
     driver.find_element(*PASSWORD).send_keys("secret_sauce")
     driver.find_element(*LOGIN).click()
-
+    expected_len = 6
     cards = driver.find_elements(*CARDS)
-    for i in cards:
-        print(len(cards))
+    assert len(cards) == expected_len, f"Expected: {expected_len}, actual: {len(cards)}"
+
 
 
 
