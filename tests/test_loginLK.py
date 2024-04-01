@@ -1,4 +1,6 @@
 #import time
+from src.urls import Urls
+
 
 # USER_NAME = ("css selector", "input[data-test='username']")  ## go to fixture conftest
 # PASSWORD = ("css selector", "input[data-test='password']")
@@ -7,6 +9,7 @@
 # CARDS = ("css selector", "div[data-test='inventory-item']")
 
 class TestLogin():
+    url = Urls()
 
     def test_loginLK(self, driver):
         page = LoginPage(driver, base_url)
