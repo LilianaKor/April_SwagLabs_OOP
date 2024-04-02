@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f110f596-56d3-44e6-afdc-1ea49ecc8d02" name="Changes" comment="Create class UserData,def open(self),def get_text(self, locator),def login(self)- in login_page.py">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/base_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_loginLK.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_loginLK.py" afterDir="false" />
-    </list>
+    <list default="true" id="f110f596-56d3-44e6-afdc-1ea49ecc8d02" name="Changes" comment="Create def get_length(self,locator), Tests runs - pass" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,6 +32,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python tests.Python tests for test_loginLK.TestLogin.executor": "Run",
+    "Python tests.Python tests for test_loginLK.TestLogin.test_login1LK.executor": "Run",
     "Python tests.Python tests for test_loginLK.TestLogin.test_loginLK.executor": "Run",
     "Python tests.Python tests for test_loginLK.test_login.executor": "Run",
     "Python tests.Python tests for test_loginLK.test_loginLK.executor": "Run",
@@ -280,7 +277,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712016395576</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Create def get_length(self,locator), Tests runs - pass">
+      <option name="closed" value="true" />
+      <created>1712017296415</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1712017296415</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -311,6 +316,7 @@
     <MESSAGE value="Create url page, class Urls:&#10;    base_url = &quot;&quot;" />
     <MESSAGE value="Create class TestLogin():&#10;    url = Urls() in test_loginLK.py" />
     <MESSAGE value="Create class UserData,def open(self),def get_text(self, locator),def login(self)- in login_page.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create class UserData,def open(self),def get_text(self, locator),def login(self)- in login_page.py" />
+    <MESSAGE value="Create def get_length(self,locator), Tests runs - pass" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create def get_length(self,locator), Tests runs - pass" />
   </component>
 </project>
