@@ -25,16 +25,19 @@ class BasePage:
         self.driver.get(self.url)
 
     def get_text(self, locator):
-        return self.driver.find_element(*locator).text
+        return self.element_is_visible(locator).text
 
     def get_length(self,locator):
-        return len(self.driver.find_elements(*locator))
+        return len(self.elements_are_visible(locator))
 
     def click_to_element(self, locator):
-        self.driver.find_element(*locator).click()
+        self.element_is_visible(locator).click()
 
     def element_is_clickable(self, locator, timeout=timeout):
         return wait(self.driver, timeout).until(EC.element_to_be_clickable(locator))
 
     def element_is_visible(self, locator, timeout=timeout):
         return wait(self.driver, timeout).until(EC.visibility_of_element_located(locator))
+
+    def elements_are_visible(self, locator, timeout=timeout):
+        return wait(self.driver, timeout).until(EC.visibility_of_all_elements_located(locator))

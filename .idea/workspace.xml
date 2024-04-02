@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f110f596-56d3-44e6-afdc-1ea49ecc8d02" name="Changes" comment="Create test_order.py, order_page.py, order_locators.py">
-      <change afterPath="$PROJECT_DIR$/locators/cart_locators.py" afterDir="false" />
+    <list default="true" id="f110f596-56d3-44e6-afdc-1ea49ecc8d02" name="Changes" comment=" import WebDriverWait as wait, import expected_conditions as EC, def element_is_clickable,def element_is_visible, Add class CartLocators:&#10;    CHECKOUT_BTN">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/locators/main_locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/locators/main_locators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/locators/order_locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/locators/order_locators.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/base_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/order_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/order_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_order.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_order.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -303,7 +297,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712019035381</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary=" import WebDriverWait as wait, import expected_conditions as EC, def element_is_clickable,def element_is_visible, Add class CartLocators:&#10;    CHECKOUT_BTN">
+      <option name="closed" value="true" />
+      <created>1712025316075</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1712025316075</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -336,6 +338,7 @@
     <MESSAGE value="Create class UserData,def open(self),def get_text(self, locator),def login(self)- in login_page.py" />
     <MESSAGE value="Create def get_length(self,locator), Tests runs - pass" />
     <MESSAGE value="Create test_order.py, order_page.py, order_locators.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create test_order.py, order_page.py, order_locators.py" />
+    <MESSAGE value=" import WebDriverWait as wait, import expected_conditions as EC, def element_is_clickable,def element_is_visible, Add class CartLocators:&#10;    CHECKOUT_BTN" />
+    <option name="LAST_COMMIT_MESSAGE" value=" import WebDriverWait as wait, import expected_conditions as EC, def element_is_clickable,def element_is_visible, Add class CartLocators:&#10;    CHECKOUT_BTN" />
   </component>
 </project>
