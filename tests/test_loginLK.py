@@ -37,16 +37,19 @@ class TestLogin():
             f"Unexpected text, expected text: {expected_text}, actual text: {actual_text}"
         #time.sleep(3)
 
-    #def test_login1LK(self, driver):
+    def test_login1LK(self, driver):
+        page = LoginPage(driver, self.url.base_url)
+        page.open()
+        page.login()
         # driver.get("https://www.saucedemo.com/")           # go to fixture
         # driver.find_element(*USER_NAME).send_keys("standard_user")
         # driver.find_element(*PASSWORD).send_keys("secret_sauce")
         # driver.find_element(*LOGIN).click()
-
-        # expected_len = 6
+        expected_len = 6
+        cards = page.get_length(self.main_locators.CARDS)
         # cards = driver.find_elements(*CARDS)
-        # assert len(cards) == expected_len, f"Expected: {expected_len}, actual: {len(cards)}"
-        #
+        assert cards == expected_len, f"Expected: {expected_len}, actual: {cards}"
+
 
 
 
