@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f110f596-56d3-44e6-afdc-1ea49ecc8d02" name="Changes" comment="Create def get_length(self,locator), Tests runs - pass" />
+    <list default="true" id="f110f596-56d3-44e6-afdc-1ea49ecc8d02" name="Changes" comment="Create test_order.py, order_page.py, order_locators.py">
+      <change afterPath="$PROJECT_DIR$/locators/cart_locators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locators/main_locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/locators/main_locators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locators/order_locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/locators/order_locators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/base_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/order_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/order_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_order.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_order.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,6 +45,7 @@
     "Python tests.Python tests for test_loginLK.TestLogin.test_loginLK.executor": "Run",
     "Python tests.Python tests for test_loginLK.test_login.executor": "Run",
     "Python tests.Python tests for test_loginLK.test_loginLK.executor": "Run",
+    "Python tests.Python tests for test_order.TestOrder.test_order_with_wrong_credential.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -47,7 +57,7 @@
       <recent name="$PROJECT_DIR$/tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_loginLK.TestLogin.test_login1LK">
+  <component name="RunManager" selected="Python tests.Python tests for test_order.TestOrder.test_order_with_wrong_credential">
     <configuration name="Python tests for test_loginLK.TestLogin" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="SwagLabs_OOP" />
       <option name="ENV_FILES" value="" />
@@ -93,18 +103,18 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for tests.test_loginLK" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_order.TestOrder.test_order_with_wrong_credential" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="SwagLabs_OOP" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests.test_loginLK&quot;" />
+      <option name="_new_target" value="&quot;test_order.TestOrder.test_order_with_wrong_credential&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -125,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_order.TestOrder.test_order_with_wrong_credential" />
         <item itemvalue="Python tests.Python tests for test_loginLK.TestLogin.test_login1LK" />
         <item itemvalue="Python tests.Python tests for test_loginLK.TestLogin" />
         <item itemvalue="Python tests.Python tests for test_loginLK.TestLogin.test_loginLK" />
         <item itemvalue="Python tests.Python tests for tests.test_loginLK.test_loginLK" />
-        <item itemvalue="Python tests.Python tests for tests.test_loginLK" />
       </list>
     </recent_temporary>
   </component>
@@ -285,7 +295,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712017296415</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Create test_order.py, order_page.py, order_locators.py">
+      <option name="closed" value="true" />
+      <created>1712019035381</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1712019035381</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -317,6 +335,7 @@
     <MESSAGE value="Create class TestLogin():&#10;    url = Urls() in test_loginLK.py" />
     <MESSAGE value="Create class UserData,def open(self),def get_text(self, locator),def login(self)- in login_page.py" />
     <MESSAGE value="Create def get_length(self,locator), Tests runs - pass" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create def get_length(self,locator), Tests runs - pass" />
+    <MESSAGE value="Create test_order.py, order_page.py, order_locators.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create test_order.py, order_page.py, order_locators.py" />
   </component>
 </project>
