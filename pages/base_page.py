@@ -8,3 +8,7 @@ class BasePage:
 
     def open(self):
         self.driver.get(self.url)
+
+    def get_text(self, locator):
+        return self.driver.find_element(*locator).text
+

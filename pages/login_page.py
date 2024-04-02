@@ -1,8 +1,14 @@
 from locators.login_locators import LoginLocators
 from pages.base_page import BasePage
+from src.user_data import UserData
 
-
-class Login_page(BasePage):
+class LoginPage(BasePage):
     locators = LoginLocators()
+    user = UserData()
 
-    pass
+    def login(self):
+        self.driver.find_element(*self.locators.USER_NAME).send_keys(self.user.standard_user)
+        self.driver.find_element(*self.locators.PASSWORD).send_keys(self.user.password)
+        self.driver.find_element(*self.locators.LOGIN).click()
+
+# pass
