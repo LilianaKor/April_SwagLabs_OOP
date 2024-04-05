@@ -17,9 +17,6 @@ class BasePage:
         self.element_is_visible(self.locators.USER_NAME).send_keys(self.user.standard_user)
         self.element_is_visible(self.locators.PASSWORD).send_keys(self.user.password)
         self.element_is_clickable(self.locators.LOGIN).click()
-        # self.driver.find_element(*self.locators.USER_NAME).send_keys(self.user.standard_user)
-        # self.driver.find_element(*self.locators.PASSWORD).send_keys(self.user.password)
-        # self.driver.find_element(*self.locators.LOGIN).click()
 
     def open(self):
         self.driver.get(self.url)
