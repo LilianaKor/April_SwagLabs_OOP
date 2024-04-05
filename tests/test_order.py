@@ -15,5 +15,6 @@ class TestOrder:
         page = OrderPage(driver,self.url.base_url)
         page.open()
         page.login()
-        page.order_with_wrong_credential(lst_data)
+        expected_text = page.order_with_wrong_credential(lst_data)
+        assert lst_data[3] == expected_text, f"Unexpected text, expected text: {expected_text}, actual text: {lst_data[3]}"
         time.sleep(3)

@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f110f596-56d3-44e6-afdc-1ea49ecc8d02" name="Changes" comment=" Instead driver.find_element(*locator)- add element_is_visible, elements_are_visible">
-      <change afterPath="$PROJECT_DIR$/src/order_data.py" afterDir="false" />
+    <list default="true" id="f110f596-56d3-44e6-afdc-1ea49ecc8d02" name="Changes" comment=" Add  @pytest.mark.parametrize(&quot;lst_data&quot;, OrderData.user_data), def fill_field(self, first_name, last_name, zip_code) - in order_data.py">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/locators/order_locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/locators/order_locators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/order_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/order_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/order_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/order_data.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_order.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_order.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,20 +33,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests for test_loginLK.TestLogin.executor": "Run",
-    "Python tests.Python tests for test_loginLK.TestLogin.test_login1LK.executor": "Run",
-    "Python tests.Python tests for test_loginLK.TestLogin.test_loginLK.executor": "Run",
-    "Python tests.Python tests for test_loginLK.test_login.executor": "Run",
-    "Python tests.Python tests for test_loginLK.test_loginLK.executor": "Run",
-    "Python tests.Python tests for test_order.TestOrder.test_order_with_wrong_credential.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for test_loginLK.TestLogin.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_loginLK.TestLogin.test_login1LK.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_loginLK.TestLogin.test_loginLK.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_loginLK.test_login.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_loginLK.test_loginLK.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_order.TestOrder.test_order_with_wrong_credential.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/tests" />
@@ -133,9 +131,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.Python tests for test_order.TestOrder.test_order_with_wrong_credential" />
+        <item itemvalue="Python tests.Python tests for test_loginLK.TestLogin.test_loginLK" />
         <item itemvalue="Python tests.Python tests for test_loginLK.TestLogin.test_login1LK" />
         <item itemvalue="Python tests.Python tests for test_loginLK.TestLogin" />
-        <item itemvalue="Python tests.Python tests for test_loginLK.TestLogin.test_loginLK" />
         <item itemvalue="Python tests.Python tests for tests.test_loginLK.test_loginLK" />
       </list>
     </recent_temporary>
@@ -316,7 +314,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712026097649</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary=" Add  @pytest.mark.parametrize(&quot;lst_data&quot;, OrderData.user_data), def fill_field(self, first_name, last_name, zip_code) - in order_data.py">
+      <option name="closed" value="true" />
+      <created>1712030466315</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1712030466315</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -351,6 +357,7 @@
     <MESSAGE value="Create test_order.py, order_page.py, order_locators.py" />
     <MESSAGE value=" import WebDriverWait as wait, import expected_conditions as EC, def element_is_clickable,def element_is_visible, Add class CartLocators:&#10;    CHECKOUT_BTN" />
     <MESSAGE value=" Instead driver.find_element(*locator)- add element_is_visible, elements_are_visible" />
-    <option name="LAST_COMMIT_MESSAGE" value=" Instead driver.find_element(*locator)- add element_is_visible, elements_are_visible" />
+    <MESSAGE value=" Add  @pytest.mark.parametrize(&quot;lst_data&quot;, OrderData.user_data), def fill_field(self, first_name, last_name, zip_code) - in order_data.py" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Add  @pytest.mark.parametrize(&quot;lst_data&quot;, OrderData.user_data), def fill_field(self, first_name, last_name, zip_code) - in order_data.py" />
   </component>
 </project>
