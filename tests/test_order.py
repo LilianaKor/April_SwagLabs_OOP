@@ -9,7 +9,6 @@ from src.urls import Urls
 
 class TestOrder:
     url = Urls()
-    #order_data = OrderData
     data = OrderData
     def test_order_with_valid_credential(self, driver):
         page = OrderPage(driver,self.url.base_url)
