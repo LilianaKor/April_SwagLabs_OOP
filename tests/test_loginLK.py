@@ -1,22 +1,12 @@
-#import webdriver_manager
+
 import time
-#from locators.login_locators import LoginLocators
 from locators.main_locators import Mainlocators
-#from locators.main_locators import Mainlocators
 from pages.login_page import LoginPage
 from src.urls import Urls
 
 from pages.login_page import LoginPage
 from src.urls import Urls
 
-# USER_NAME = ("css selector", "input[data-test='username']")  ## go to fixture conftest
-# PASSWORD = ("css selector", "input[data-test='password']")
-# LOGIN = ("css selector", "input[data-test='login-button']")
-# TITLE = ("css selector", "span[data-test='title']")   # because go to class Mainlocators
-# CARDS = ("css selector", "div[data-test='inventory-item']")
-
-# class LoginPage:
-#     pass
 class TestLogin():
     url = Urls()
     main_locators = Mainlocators()
