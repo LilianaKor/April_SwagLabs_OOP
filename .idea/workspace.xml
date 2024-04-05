@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f110f596-56d3-44e6-afdc-1ea49ecc8d02" name="Changes" comment=" Add  @pytest.mark.parametrize(&quot;lst_data&quot;, OrderData.user_data), def fill_field(self, first_name, last_name, zip_code) - in order_data.py">
+    <list default="true" id="f110f596-56d3-44e6-afdc-1ea49ecc8d02" name="Changes" comment=" Add  def test_order_with_wrong_credential(self, driver, lst_data):test Pass. Assert  lst_data[3] == expected_text,">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/order_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/order_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/order_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/order_data.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_order.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_order.py" afterDir="false" />
     </list>
@@ -322,7 +323,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712030466315</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary=" Add  def test_order_with_wrong_credential(self, driver, lst_data):test Pass. Assert  lst_data[3] == expected_text,">
+      <option name="closed" value="true" />
+      <created>1712291271045</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1712291271045</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -358,6 +367,7 @@
     <MESSAGE value=" import WebDriverWait as wait, import expected_conditions as EC, def element_is_clickable,def element_is_visible, Add class CartLocators:&#10;    CHECKOUT_BTN" />
     <MESSAGE value=" Instead driver.find_element(*locator)- add element_is_visible, elements_are_visible" />
     <MESSAGE value=" Add  @pytest.mark.parametrize(&quot;lst_data&quot;, OrderData.user_data), def fill_field(self, first_name, last_name, zip_code) - in order_data.py" />
-    <option name="LAST_COMMIT_MESSAGE" value=" Add  @pytest.mark.parametrize(&quot;lst_data&quot;, OrderData.user_data), def fill_field(self, first_name, last_name, zip_code) - in order_data.py" />
+    <MESSAGE value=" Add  def test_order_with_wrong_credential(self, driver, lst_data):test Pass. Assert  lst_data[3] == expected_text," />
+    <option name="LAST_COMMIT_MESSAGE" value=" Add  def test_order_with_wrong_credential(self, driver, lst_data):test Pass. Assert  lst_data[3] == expected_text," />
   </component>
 </project>
