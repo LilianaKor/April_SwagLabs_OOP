@@ -15,13 +15,7 @@ class TestLogin():
         page.open()
         page.login()
         actual_text = page.get_text(self.main_locators.TITLE)
-        # time.sleep(4)
 
-        # driver.get("https://www.saucedemo.com/")     ## go to fixture
-        # driver.find_element(*USER_NAME).send_keys("standard_user")
-        # driver.find_element(*PASSWORD).send_keys("secret_sauce")
-        # driver.find_element(*LOGIN).click()
- #        actual_text = driver.find_element(*TITLE).text
         expected_text = "Products"
         assert actual_text == expected_text, \
             f"Unexpected text, expected text: {expected_text}, actual text: {actual_text}"
