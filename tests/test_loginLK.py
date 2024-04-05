@@ -9,7 +9,7 @@ from src.urls import Urls
 from pages.login_page import LoginPage
 from src.urls import Urls
 
-# USER_NAME = ("css selector", "input[data-test='username']")  ## go to fixture conftest
+# USER_NAME = ("css selector", "input[data-test='username']")  ## improve:go to fixture conftest
 # PASSWORD = ("css selector", "input[data-test='password']")
 # LOGIN = ("css selector", "input[data-test='login-button']")
 # TITLE = ("css selector", "span[data-test='title']")   # because go to class Mainlocators
@@ -27,7 +27,7 @@ class TestLogin():
         actual_text = page.get_text(self.main_locators.TITLE)
         # time.sleep(4)
 
-        # driver.get("https://www.saucedemo.com/")     ## go to fixture
+        # driver.get("https://www.saucedemo.com/")     ##  Improve: go to fixture
         # driver.find_element(*USER_NAME).send_keys("standard_user")
         # driver.find_element(*PASSWORD).send_keys("secret_sauce")
         # driver.find_element(*LOGIN).click()
@@ -41,7 +41,7 @@ class TestLogin():
         page = LoginPage(driver, self.url.base_url)
         page.open()
         page.login()
-        # driver.get("https://www.saucedemo.com/")           # go to fixture
+        # driver.get("https://www.saucedemo.com/")           #  update ; go to fixture
         # driver.find_element(*USER_NAME).send_keys("standard_user")
         # driver.find_element(*PASSWORD).send_keys("secret_sauce")
         # driver.find_element(*LOGIN).click()
