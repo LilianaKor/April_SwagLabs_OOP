@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f110f596-56d3-44e6-afdc-1ea49ecc8d02" name="Changes" comment="Pass  test_order_with_valid_credential">
+    <list default="true" id="f110f596-56d3-44e6-afdc-1ea49ecc8d02" name="Changes" comment="improve and update for commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +42,7 @@
     &quot;Python tests.Python tests for test_order.TestOrder.test_order_with_wrong_credential.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
@@ -345,7 +345,23 @@
       <option name="project" value="LOCAL" />
       <updated>1712293655963</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="improve:go to fixture conftest">
+      <option name="closed" value="true" />
+      <created>1712355214047</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1712355214047</updated>
+    </task>
+    <task id="LOCAL-00026" summary="improve and update for commit">
+      <option name="closed" value="true" />
+      <created>1712355326048</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1712355326048</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -360,7 +376,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add conftest, req., logintest, fixture" />
     <MESSAGE value="Add conftest max widow" />
     <MESSAGE value="Add TITLE = &quot;css selector&quot;, assert actual_text" />
     <MESSAGE value="Add  expected_text = &quot;Products!&quot; - negative" />
@@ -384,6 +399,8 @@
     <MESSAGE value=" Add  def test_order_with_wrong_credential(self, driver, lst_data):test Pass. Assert  lst_data[3] == expected_text," />
     <MESSAGE value=" Add   data = OrderData,  assert self.data.successful_massage in test_order.py" />
     <MESSAGE value="Pass  test_order_with_valid_credential" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pass  test_order_with_valid_credential" />
+    <MESSAGE value="improve:go to fixture conftest" />
+    <MESSAGE value="improve and update for commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="improve and update for commit" />
   </component>
 </project>
