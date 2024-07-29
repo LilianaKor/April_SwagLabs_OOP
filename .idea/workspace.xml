@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f110f596-56d3-44e6-afdc-1ea49ecc8d02" name="Changes" comment="Pass  test_order_with_valid_credential" />
+    <list default="true" id="f110f596-56d3-44e6-afdc-1ea49ecc8d02" name="Changes" comment="Updated and improved test_order.py:Deleted #order_data = OrderData">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -351,7 +353,71 @@
       <option name="project" value="LOCAL" />
       <updated>1712346570110</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Delete previous code from def login.">
+      <option name="closed" value="true" />
+      <created>1712348758716</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1712348758716</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Delete  # def login(self):  # go to base page">
+      <option name="closed" value="true" />
+      <created>1712348935929</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1712348935929</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Updated and improved order_page.py">
+      <option name="closed" value="true" />
+      <created>1712349165666</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1712349165666</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Updated and improved class OrderData in order_data.py">
+      <option name="closed" value="true" />
+      <created>1712349273158</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1712349273158</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Updated and improved -Data go to class Mainlocators. And to fixure conftest, deleted imports.">
+      <option name="closed" value="true" />
+      <created>1712349524881</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1712349524881</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Updated and improved : driver.find... -&gt; go to fixture.">
+      <option name="closed" value="true" />
+      <created>1712349624410</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1712349624410</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Updated and improved test_loginLK.py: driver.find... -&gt; go to fixture . Deleted   # cards = driver.find_elements(*CARDS)">
+      <option name="closed" value="true" />
+      <created>1712349872911</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1712349872911</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Updated and improved test_order.py:Deleted #order_data = OrderData">
+      <option name="closed" value="true" />
+      <created>1712349976882</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1712349976882</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -366,13 +432,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add conftest, req., logintest, fixture" />
-    <MESSAGE value="Add conftest max widow" />
-    <MESSAGE value="Add TITLE = &quot;css selector&quot;, assert actual_text" />
-    <MESSAGE value="Add  expected_text = &quot;Products!&quot; - negative" />
-    <MESSAGE value="Add  CARDS &quot;css selector&quot;," />
-    <MESSAGE value="Add  for i in cards:&#10;        print(len(cards)) = 6" />
-    <MESSAGE value="Add   assert len(cards) == expected_len, f&quot;Expected" />
     <MESSAGE value="Add   selecrors into conftest.py" />
     <MESSAGE value="Create test.page, add test_loginLK.py into test,page" />
     <MESSAGE value="Create login_page.py., locatots.page, add CSS into locators page" />
@@ -390,6 +449,14 @@
     <MESSAGE value=" Add  def test_order_with_wrong_credential(self, driver, lst_data):test Pass. Assert  lst_data[3] == expected_text," />
     <MESSAGE value=" Add   data = OrderData,  assert self.data.successful_massage in test_order.py" />
     <MESSAGE value="Pass  test_order_with_valid_credential" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pass  test_order_with_valid_credential" />
+    <MESSAGE value="Delete previous code from def login." />
+    <MESSAGE value="Delete  # def login(self):  # go to base page" />
+    <MESSAGE value="Updated and improved order_page.py" />
+    <MESSAGE value="Updated and improved class OrderData in order_data.py" />
+    <MESSAGE value="Updated and improved -Data go to class Mainlocators. And to fixure conftest, deleted imports." />
+    <MESSAGE value="Updated and improved : driver.find... -&gt; go to fixture." />
+    <MESSAGE value="Updated and improved test_loginLK.py: driver.find... -&gt; go to fixture . Deleted   # cards = driver.find_elements(*CARDS)" />
+    <MESSAGE value="Updated and improved test_order.py:Deleted #order_data = OrderData" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated and improved test_order.py:Deleted #order_data = OrderData" />
   </component>
 </project>

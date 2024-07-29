@@ -1,10 +1,10 @@
-
 import time
 from locators.main_locators import Mainlocators
 from pages.login_page import LoginPage
 from src.urls import Urls
 from pages.login_page import LoginPage
 from src.urls import Urls
+
 
 class TestLogin():
     url = Urls()
@@ -27,7 +27,3 @@ class TestLogin():
         expected_len = 6
         cards = page.get_length(self.main_locators.CARDS)
         assert cards == expected_len, f"Expected: {expected_len}, actual: {cards}"
-
-
-
-
