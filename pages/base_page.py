@@ -9,7 +9,8 @@ class BasePage:
     timeout = 10
     locators = LoginLocators()
     user = UserData()
-    def __init__(self, driver,url):
+
+    def __init__(self, driver, url):
         self.driver = driver
         self.url = url
 
@@ -27,7 +28,7 @@ class BasePage:
     def get_text(self, locator):
         return self.element_is_visible(locator).text
 
-    def get_length(self,locator):
+    def get_length(self, locator):
         return len(self.elements_are_visible(locator))
 
     def click_to_element(self, locator):
