@@ -1,7 +1,6 @@
 import time
 
 import pytest
-
 from pages.order_page import OrderPage
 from src.order_data import OrderData
 from src.urls import Urls
