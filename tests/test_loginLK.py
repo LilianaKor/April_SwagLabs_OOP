@@ -17,7 +17,8 @@ from src.urls import Urls
 # CARDS = ("css selector", "div[data-test='inventory-item']")
 
 # class LoginPage:
-#     pass
+
+
 class TestLogin():
     url = Urls()
     main_locators = Mainlocators()
